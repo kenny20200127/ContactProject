@@ -1,0 +1,16 @@
+C:\Users\HP\source\repos\AspnetIdentitydemo\AspnetIdentityCore\bin\Debug\netcoreapp3.1\AspnetIdentityCore.deps.json
+C:\Users\HP\source\repos\AspnetIdentitydemo\AspnetIdentityCore\bin\Debug\netcoreapp3.1\AspnetIdentityCore.dll
+C:\Users\HP\source\repos\AspnetIdentitydemo\AspnetIdentityCore\bin\Debug\netcoreapp3.1\AspnetIdentityCore.pdb
+C:\Users\HP\source\repos\AspnetIdentitydemo\AspnetIdentityCore\obj\Debug\netcoreapp3.1\AspnetIdentityCore.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\AspnetIdentitydemo\AspnetIdentityCore\obj\Debug\netcoreapp3.1\AspnetIdentityCore.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\AspnetIdentitydemo\AspnetIdentityCore\obj\Debug\netcoreapp3.1\AspnetIdentityCore.AssemblyInfo.cs
+C:\Users\HP\source\repos\AspnetIdentitydemo\AspnetIdentityCore\obj\Debug\netcoreapp3.1\AspnetIdentityCore.dll
+C:\Users\HP\source\repos\AspnetIdentitydemo\AspnetIdentityCore\obj\Debug\netcoreapp3.1\AspnetIdentityCore.pdb
+C:\Users\Home\Desktop\AspnetIdentitydemo\AspnetIdentityCore\bin\Debug\netcoreapp3.1\AspnetIdentityCore.deps.json
+C:\Users\Home\Desktop\AspnetIdentitydemo\AspnetIdentityCore\bin\Debug\netcoreapp3.1\AspnetIdentityCore.dll
+C:\Users\Home\Desktop\AspnetIdentitydemo\AspnetIdentityCore\bin\Debug\netcoreapp3.1\AspnetIdentityCore.pdb
+C:\Users\Home\Desktop\AspnetIdentitydemo\AspnetIdentityCore\obj\Debug\netcoreapp3.1\AspnetIdentityCore.AssemblyInfoInputs.cache
+C:\Users\Home\Desktop\AspnetIdentitydemo\AspnetIdentityCore\obj\Debug\netcoreapp3.1\AspnetIdentityCore.AssemblyInfo.cs
+C:\Users\Home\Desktop\AspnetIdentitydemo\AspnetIdentityCore\obj\Debug\netcoreapp3.1\AspnetIdentityCore.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\AspnetIdentitydemo\AspnetIdentityCore\obj\Debug\netcoreapp3.1\AspnetIdentityCore.dll
+C:\Users\Home\Desktop\AspnetIdentitydemo\AspnetIdentityCore\obj\Debug\netcoreapp3.1\AspnetIdentityCore.pdb
