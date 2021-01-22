@@ -30,30 +30,39 @@ namespace ContactManagerApi.Controllers
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] AuthModel model)
         {
+            IActionResult response = Unauthorized();
             if (model.UserName != null)
             {
                 var userlogin = await userService.SignInUser(model.UserName, model.Password, "true");
                 if (userlogin != null)
-                {                   
-                        var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Secret"]));
-                        var token = new JwtSecurityToken(
-                            issuer: _configuration["JWT:ValidIssuer"],
-                            audience: _configuration["JWT:ValidAudience"],
-                            expires: DateTime.Now.AddHours(3),
-                            signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
-                            );
-
-                        return Ok(new
-                        {
-                            token = new JwtSecurityTokenHandler().WriteToken(token),
-                            expiration = token.ValidTo
-                        });
-                    }
-                    return Unauthorized();
+                {
+                  var tokenString=  GenerateJSONWebToken(model);
+                    response = Ok(new { token = tokenString });
                 }
-            return Ok();
             }
-        
+            return response;
+            }
+
+        private string GenerateJSONWebToken(AuthModel userInfo)
+        {
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+            var claims = new[] {
+                new Claim(JwtRegisteredClaimNames.Sub, userInfo.UserName),
+                new Claim(JwtRegisteredClaimNames.Email, userInfo.UserName),
+                new Claim("DateOfJoing", DateTime.Now.ToString("yyyy-MM-dd")),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            };
+
+            var token = new JwtSecurityToken(_configuration["Jwt:Issuer"],
+                _configuration["Jwt:Issuer"],
+                claims,
+                expires: DateTime.Now.AddMinutes(120),
+                signingCredentials: credentials);
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
         [HttpPost]
         [Route("Register")]
         public async Task<IActionResult> RegisterAsync([FromBody]RegisterViewModel model)

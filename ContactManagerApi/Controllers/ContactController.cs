@@ -4,11 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using ContactManagerApi.IServices;
 using ContactManagerApi.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ContactManagerApi.Controllers
 {
+   
     [Route("api/Contact")]
     [ApiController]
     public class ContactController : ControllerBase
@@ -19,8 +21,10 @@ namespace ContactManagerApi.Controllers
 
             this.ContactService = ContactService;
         }
+        
         [Route("getAllContacts")]
         [HttpGet]
+        [Authorize]
         public IEnumerable<Contact> Get()
         {
             return ContactService.GetContacts();
