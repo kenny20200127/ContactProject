@@ -16,3 +16,12 @@ C:\Users\Home\Desktop\ContactManagerdemo\ContactManagerCore\obj\Debug\netcoreapp
 C:\Users\Home\Desktop\ContactManagerdemo\ContactManagerCore\obj\Debug\netcoreapp3.1\ContactManagerCore.csproj.CoreCompileInputs.cache
 C:\Users\Home\Desktop\ContactManagerdemo\ContactManagerCore\obj\Debug\netcoreapp3.1\ContactManagerCore.dll
 C:\Users\Home\Desktop\ContactManagerdemo\ContactManagerCore\obj\Debug\netcoreapp3.1\ContactManagerCore.pdb
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerCore\bin\Debug\netcoreapp3.1\ContactManagerCore.deps.json
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerCore\bin\Debug\netcoreapp3.1\ContactManagerCore.dll
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerCore\bin\Debug\netcoreapp3.1\ContactManagerCore.pdb
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerCore\obj\Debug\netcoreapp3.1\ContactManagerCore.csprojAssemblyReference.cache
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerCore\obj\Debug\netcoreapp3.1\ContactManagerCore.AssemblyInfoInputs.cache
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerCore\obj\Debug\netcoreapp3.1\ContactManagerCore.AssemblyInfo.cs
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerCore\obj\Debug\netcoreapp3.1\ContactManagerCore.dll
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerCore\obj\Debug\netcoreapp3.1\ContactManagerCore.pdb
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerCore\obj\Debug\netcoreapp3.1\ContactManagerCore.csproj.CoreCompileInputs.cache

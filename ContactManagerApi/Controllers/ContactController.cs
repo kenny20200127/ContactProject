@@ -10,8 +10,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ContactManagerApi.Controllers
 {
-   
-    [Route("api/Contact")]
+    [Authorize]
+    [Route("api/[Controller]")]
     [ApiController]
     public class ContactController : ControllerBase
     {
@@ -21,23 +21,22 @@ namespace ContactManagerApi.Controllers
 
             this.ContactService = ContactService;
         }
-        
+     
         [Route("getAllContacts")]
         [HttpGet]
-        [Authorize]
-        public IEnumerable<Contact> Get()
+         public IEnumerable<Contact> Get()
         {
             return ContactService.GetContacts();
         }
 
 
         // GET: api/Contact/5
-        [Route("Getl")]
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+        //[Route("Getl")]
+        //[HttpGet("{id}")]
+        //public string Get(int id)
+        //{
+        //    return "value";
+        //}
 
         // POST: api/Contact
         [Route("createContact")]

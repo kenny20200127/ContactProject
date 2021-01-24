@@ -412,8 +412,6 @@ C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\bin\De
 C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\obj\Debug\netcoreapp3.1\ContactManagerApi.csprojAssemblyReference.cache
 C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\obj\Debug\netcoreapp3.1\ContactManagerApi.AssemblyInfoInputs.cache
 C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\obj\Debug\netcoreapp3.1\ContactManagerApi.AssemblyInfo.cs
-C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\obj\Debug\netcoreapp3.1\ContactManagerApi.csproj.CoreCompileInputs.cache
-C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\obj\Debug\netcoreapp3.1\ContactManagerApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\obj\Debug\netcoreapp3.1\ContactManagerApi.RazorTargetAssemblyInfo.cache
 C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\obj\Debug\netcoreapp3.1\ContactManagerApi.csproj.CopyComplete
 C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\obj\Debug\netcoreapp3.1\staticwebassets\ContactManagerApi.StaticWebAssets.Manifest.cache
@@ -421,3 +419,12 @@ C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\obj\De
 C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\obj\Debug\netcoreapp3.1\ContactManagerApi.dll
 C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\obj\Debug\netcoreapp3.1\ContactManagerApi.pdb
 C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\obj\Debug\netcoreapp3.1\ContactManagerApi.genruntimeconfig.cache
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\obj\Debug\netcoreapp3.1\ContactManagerApi.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\obj\Debug\netcoreapp3.1\ContactManagerApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Home\Desktop\ContactManagerdemo\ContactProject\ContactManagerApi\obj\Debug\netcoreapp3.1\ContactManagerApi.MvcApplicationPartsAssemblyInfo.cache

@@ -15,7 +15,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace ContactManagerApi.Controllers
 {
-    [Route("api/Auth")]
+    [Route("api/[Controller]")]
     [ApiController]
     public class AuthController : ControllerBase
     {
@@ -26,7 +26,7 @@ namespace ContactManagerApi.Controllers
             this.userService = userService;
             this._configuration = _configuration;
         }
-        [Route("login")]
+        //[Route("login")]
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] AuthModel model)
         {
@@ -45,7 +45,7 @@ namespace ContactManagerApi.Controllers
 
         private string GenerateJSONWebToken(AuthModel userInfo)
         {
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["AuthSettings:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
             var claims = new[] {
@@ -55,8 +55,8 @@ namespace ContactManagerApi.Controllers
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
             };
 
-            var token = new JwtSecurityToken(_configuration["Jwt:Issuer"],
-                _configuration["Jwt:Issuer"],
+            var token = new JwtSecurityToken(_configuration["AuthSettings:Issuer"],
+                _configuration["AuthSettings:Issuer"],
                 claims,
                 expires: DateTime.Now.AddMinutes(120),
                 signingCredentials: credentials);
@@ -65,7 +65,7 @@ namespace ContactManagerApi.Controllers
         }
         [HttpPost]
         [Route("Register")]
-        public async Task<IActionResult> RegisterAsync([FromBody]RegisterViewModel model)
+        public async Task<IActionResult> RegisterAsync([FromBody] RegisterViewModel model)
         {
             if (ModelState.IsValid)
             {
